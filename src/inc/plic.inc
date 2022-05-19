@@ -1,0 +1,9 @@
+# Info for PLIC functions
+
+# Offsets
+.equ PLIC_SRC_PRIORITIES_OFFSET, 0x000004
+.equ PLIC_ENABLE_OFFSET,         0x002000
+.equ PLIC_TARGET_THRS_OFFSET,    0x200000
+
+# Constants
+.equ PLIC_NUM_SOURCES, 65

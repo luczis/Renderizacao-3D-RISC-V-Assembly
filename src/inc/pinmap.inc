@@ -1,0 +1,38 @@
+# Pins utilized
+.equ PIN_SD_MISO, 26
+.equ PIN_SD_CLK,  27
+.equ PIN_SD_MOSI, 28
+.equ PIN_SD_CS,   29
+.equ PIN_TFT_CS,  36
+.equ PIN_TFT_RST, 37
+.equ PIN_TFT_DC,  38
+.equ PIN_TFT_CLK, 39
+.equ PIN_LED_B,   12
+.equ PIN_LED_G,   13
+.equ PIN_LED_R,   14
+
+# GPIOHS utilized
+.equ GPIOHS_TFT_RST, 0
+.equ GPIOHS_TFT_DC,  1
+.equ GPIOHS_LED_B,   2
+.equ GPIOHS_LED_G,   3
+.equ GPIOHS_LED_R,   4
+
+# SPI0 utilized
+.equ SPI_TFT_SS, 3
+
+# SPI1 utilized
+.equ SPI_SD_SS,  3
+
+# Pin start config
+.equ PIN_SD_MISO_CONFIG, 0x80B00747
+.equ PIN_SD_CLK_CONFIG,  0x00001753
+.equ PIN_SD_MOSI_CONFIG, 0x80003746
+.equ PIN_SD_CS_CONFIG,   0x00001751
+.equ PIN_TFT_CS_CONFIG,  0x0000170F
+.equ PIN_TFT_RST_CONFIG, 0x00021718
+.equ PIN_TFT_DC_CONFIG,  0x00021719
+.equ PIN_TFT_CLK_CONFIG, 0x00001711
+.equ PIN_LED_B_CONFIG,   0x0002171A
+.equ PIN_LED_G_CONFIG,   0x0002171B
+.equ PIN_LED_R_CONFIG,   0x0002171C

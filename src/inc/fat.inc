@@ -1,0 +1,26 @@
+# Info for FAT functions
+
+# Settings
+.equ PARTITION_NUMBER, 0
+
+# Constants
+# FAT flags
+.equ FAT_BR_SIGNATURE, 0x55AA
+.equ FAT_SECTOR_SIZE,  0x200
+.equ FAT_TABLE_EOF,    0x0FFFFFFF
+.equ FAT_MAX_FILE_KIB, 600000
+
+# Partition Table
+.equ PARTITION_START,      0x1BE
+.equ PARTITION_ENTRY_SIZE, 16
+.equ PARTITION_ID_OFF,     0x4
+.equ PARTITION_START_OFF,  0x8
+.equ PARTITION_SIZE_OFF,   0xC
+.equ PARTITION_FAT32_LBA,  0x0C
+
+# Boot Sector
+.equ BOOT_BPS_OFF, 0xB
+.equ BOOT_SPC_OFF, 0xD
+.equ BOOT_RSVD_SIZE, 0xE
+.equ BOOT_FAT_CPS, 0x10
+.equ BOOT_FAT_SIZE, 0x24
